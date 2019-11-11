@@ -1,4 +1,4 @@
-package com.shresthagaurav.tablayouthw.ui.gallery;
+package com.maharjan.tablayout.design.area;
 
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -9,29 +9,26 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProviders;
 
-import com.shresthagaurav.tablayouthw.R;
+import com.maharjan.tablayout.R;
 
 import java.text.DecimalFormat;
 
-public class GalleryFragment extends Fragment {
+public class AreaFragment extends Fragment {
     private EditText etradius;
-    private Button btnCalculate;
+    private Button btnCal;
     private TextView txresult;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
+        View root = inflater.inflate(R.layout.fragment_area, container, false);
         etradius = root.findViewById(R.id.etR);
-        btnCalculate = root.findViewById(R.id.btnCaluclateR);
+        btnCal = root.findViewById(R.id.btnCaluclateR);
         txresult = root.findViewById(R.id.resultR);
-        btnCalculate.setOnClickListener(new View.OnClickListener() {
+        btnCal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if(!TextUtils.isEmpty(etradius.getText().toString())){

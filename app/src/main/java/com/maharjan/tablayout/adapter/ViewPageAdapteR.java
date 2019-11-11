@@ -1,4 +1,4 @@
-package com.shresthagaurav.tablayouthw.adpter;
+package com.maharjan.tablayout.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

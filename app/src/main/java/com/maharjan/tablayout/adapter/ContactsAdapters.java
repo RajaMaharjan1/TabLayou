@@ -1,4 +1,4 @@
-package com.shresthagaurav.tablayouthw.adpter;
+package com.maharjan.tablayout.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.shresthagaurav.tablayouthw.DisplayMain;
-import com.shresthagaurav.tablayouthw.R;
+import com.maharjan.tablayout.DisplayMain;
+import com.maharjan.tablayout.R;
 
 import java.util.List;
 import de.hdodenhof.circleimageview.CircleImageView;

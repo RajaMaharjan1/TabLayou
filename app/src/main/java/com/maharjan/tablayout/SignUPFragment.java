@@ -1,4 +1,4 @@
-package com.shresthagaurav.tablayouthw;
+package com.maharjan.tablayout;
 
 
 import android.os.Bundle;
@@ -13,9 +13,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.shresthagaurav.tablayouthw.implement.InterfaceClassIMPL;
-import com.shresthagaurav.tablayouthw.implement.TabLayoutInterface;
-import com.shresthagaurav.tablayouthw.model.Datacenter;
+import com.maharjan.tablayout.implement.InterfaceClassIMPL;
+import com.maharjan.tablayout.implement.TabLayoutInterface;
+import com.maharjan.tablayout.model.Datacenter;
 
 
 /**
@@ -35,8 +35,8 @@ public class SignUPFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_sign_up, container, false);
         sName = view.findViewById(R.id.signupName);
-        sPassword = view.findViewById(R.id.sign1Pass);
-        sRePassword = view.findViewById(R.id.sign2Pass);
+        sPassword = view.findViewById(R.id.signPw);
+        sRePassword = view.findViewById(R.id.signCPw);
         btnSignUP = view.findViewById(R.id.btnsignup);
         btnSignUP.setOnClickListener(new View.OnClickListener() {
             @Override

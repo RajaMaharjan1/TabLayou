@@ -1,4 +1,4 @@
-package com.shresthagaurav.tablayouthw;
+package com.maharjan.tablayout;
 
 import org.junit.Test;
 

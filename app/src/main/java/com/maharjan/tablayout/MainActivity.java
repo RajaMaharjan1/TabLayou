@@ -1,4 +1,4 @@
-package com.shresthagaurav.tablayouthw;
+package com.maharjan.tablayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -6,7 +6,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
-import com.shresthagaurav.tablayouthw.adpter.ViewPageAdapteR;
+import com.maharjan.tablayout.adapter.ViewPageAdapteR;
 
 public class MainActivity extends AppCompatActivity {
 private ViewPager viewPager;

@@ -5,6 +5,10 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="Contacts" />
+        <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_add_black_24dp"
             android:title="SUM" />
@@ -12,10 +16,7 @@
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_play_circle_filled_black_24dp"
             android:title="Area of Circle" />
-        <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_contacts_black_24dp"
-            android:title="Contacts" />
+
 
     </group>
 

@@ -1,4 +1,4 @@
-package com.shresthagaurav.tablayouthw;
+package com.maharjan.tablayout;
 
 
 import android.content.Intent;
@@ -14,9 +14,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.shresthagaurav.tablayouthw.implement.InterfaceClassIMPL;
-import com.shresthagaurav.tablayouthw.implement.TabLayoutInterface;
-import com.shresthagaurav.tablayouthw.model.Datacenter;
+import com.maharjan.tablayout.implement.InterfaceClassIMPL;
+import com.maharjan.tablayout.implement.TabLayoutInterface;
+import com.maharjan.tablayout.model.Datacenter;
 
 
 /**
@@ -37,7 +37,7 @@ public class LoginFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_login, container, false);
         loginNmae = view.findViewById(R.id.loginName);
-        LoginPasssword = view.findViewById(R.id.loginPass);
+        LoginPasssword = view.findViewById(R.id.loginPw);
         btnlogin = view.findViewById(R.id.btnLogin);
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,7 +73,7 @@ public class LoginFragment extends Fragment {
             intent.putExtra("names",name);
             startActivity(intent);
         }else{
-            Toast.makeText(getActivity(), "Login failed\nplease check ! " , Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), "Login failed" , Toast.LENGTH_SHORT).show();
 
         }
 

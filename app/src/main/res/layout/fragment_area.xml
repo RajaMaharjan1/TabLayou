@@ -2,32 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#7A86EE"
+    android:orientation="vertical">
+
 
     <EditText
-        android:id="@+id/etFirst"
+        android:id="@+id/etR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter first no"
+        android:layout_margin="10dp"
         android:inputType="numberDecimal"
-        android:layout_margin="10dp"/>
+        android:hint="Enter Radius" />
 
-    <EditText
-        android:id="@+id/etSecond"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter second no"
-        android:inputType="numberDecimal"
-        android:layout_margin="10dp"/>
+
     <Button
-        android:id="@+id/btnCaluclate"
-        android:text="Calcualte"
+        android:id="@+id/btnCaluclateR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:background="#B9801B"
+        android:textColor="#FAF8F8"
+        android:text="Calcualte" />
+
     <TextView
-        android:id="@+id/resultadd"
+        android:id="@+id/resultR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"

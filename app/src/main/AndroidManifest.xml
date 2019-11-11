@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shresthagaurav.tablayouthw">
+    package="com.maharjan.tablayout">
 
     <application
         android:allowBackup="true"
@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DisplayMain"></activity>
+        <activity android:name="com.maharjan.tablayout.DisplayMain"></activity>
         <activity
-            android:name=".NavMain"
+            android:name="com.maharjan.tablayout.NavMain"
             android:label="@string/title_activity_nav_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.maharjan.tablayout.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

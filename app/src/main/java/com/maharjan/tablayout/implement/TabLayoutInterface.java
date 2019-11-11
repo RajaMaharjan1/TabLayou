@@ -1,6 +1,6 @@
-package com.shresthagaurav.tablayouthw.implement;
+package com.maharjan.tablayout.implement;
 
-import com.shresthagaurav.tablayouthw.model.Datacenter;
+import com.maharjan.tablayout.model.Datacenter;
 
 public interface TabLayoutInterface {
     boolean adduser(Datacenter dc);

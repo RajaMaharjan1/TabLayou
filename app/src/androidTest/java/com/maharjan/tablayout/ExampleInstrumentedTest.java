@@ -1,4 +1,4 @@
-package com.shresthagaurav.tablayouthw;
+package com.maharjan.tablayout;
 
 import android.content.Context;
 
